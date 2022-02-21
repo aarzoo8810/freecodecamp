@@ -3,16 +3,16 @@ from bs4 import BeautifulSoup
 import discord
 from discord.ext import commands
 import asyncio
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import os
 
-load_dotenv('.env')
+# load_dotenv('.env')
 bot = commands.Bot(command_prefix="!")
 
 
 async def timer():
     await bot.wait_until_ready()
-    channel = bot.get_channel(943142720568954931)
+    channel = bot.get_channel(944523506064949259)
     msg_sent = False
     
 
@@ -33,12 +33,13 @@ async def timer():
             heading = post.find('h2', class_="post-card-title").text.strip()
 
             with open('post_name.txt', 'r') as f:
-                if heading not in f.read():
-                    embed = discord.Embed(title=heading, url=link)
-                    embed.set_image(url=img_link)
+                if heading not in f.read(): 
                     with open('post_name.txt', 'a') as f:
                         f.write(heading + '\n')
-                        await channel.send(embed=embed)
+
+                    embed = discord.Embed(title=heading, url=link)
+                    embed.set_image(url=img_link)
+                    await channel.send(embed=embed)
 
                 else:
                     msg_sent=False
