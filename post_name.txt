@@ -21,5 +21,4 @@ Python Requests – How to Interact with Web Services using Python
 Learn Python – Free Python Courses for Beginners
 How to Build a GUI Quiz App Using Tkinter and Open Trivia DB
 Print Statement in Python – How to Print with Example Syntax Command
-Python Project – How to Build Tony Stark's JARVIS with Python
 How to Merge Dictionaries in Python
