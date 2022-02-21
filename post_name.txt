@@ -17,7 +17,6 @@ Python Not Equal – Does Not Equal Operator Tutorial
 Append in Python – How to Append to a List or an Array
 Python Tutorial – How to Create a URL Shortener using Flask
 Python Project – How to Create a Horoscope API with Beautiful Soup and Flask
-Python Requests – How to Interact with Web Services using Python
 Learn Python – Free Python Courses for Beginners
 How to Build a GUI Quiz App Using Tkinter and Open Trivia DB
 Print Statement in Python – How to Print with Example Syntax Command
